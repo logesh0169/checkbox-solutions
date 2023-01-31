@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faf2fc45-0b66-46f2-a36b-cc94ed9004d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="faf2fc45-0b66-46f2-a36b-cc94ed9004d9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675127696460</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="docker files">
+      <created>1675142506903</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1675142506903</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -174,6 +177,7 @@
     <MESSAGE value="changes" />
     <MESSAGE value="checkbox-vqa enhancement v1" />
     <MESSAGE value="checkbox-vqa-enhance-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="checkbox-vqa-enhance-1" />
+    <MESSAGE value="docker files" />
+    <option name="LAST_COMMIT_MESSAGE" value="docker files" />
   </component>
 </project>
