@@ -1,0 +1,24 @@
+services:
+  checkbox-vqa:
+    build: .
+    container_name: checkbox
+    image: vqa
+    ports:
+      - "10189:10189"
+    volumes:
+      - /home/logeshbabu/workspace/checkbox-vqa
+    environment:
+      TZ: "Asia/Kolkata"
+
+    networks:
+      intics:
+        ipv4_address: 172.19.0.17
+networks:
+  intics:
+    name: checkbox.intics
+    external: true
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.19.0.0/16
+          gateway: 172.19.0.1
