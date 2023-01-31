@@ -9,3 +9,4 @@ echo "Checkbox vqa testing..."
 python main.py
 
 echo "checkbox vqa completed!"
+
