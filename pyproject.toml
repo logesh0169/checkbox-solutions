@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "checkbox-vqa"
+version = "1.0"
+description = "checkbox detection and recognition"
+authors = ["logesh0169 <logesh.b@zucisystems.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "cehckbox_vqa"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+colorlog = "^6.7.0"
+opencv-python = "^4.7.0.68"
+torch = "^1.13.1"
+torchvision = "^0.14.1"
+matplotlib = "^3.6.3"
+transformers = "^4.25.1"
+sentencepiece = "^0.1.97"
+pandas = "^1.5.2"
+albumentations = "^1.3.0"
+notebook = "^6.5.2"
+openpyxl = "^3.0.10"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
